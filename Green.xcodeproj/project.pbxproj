@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4B417BC1C9BDE87006B35AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B417BB1C9BDE87006B35AC /* AppDelegate.swift */; };
+		A4B417BE1C9BDE87006B35AC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A4B417BD1C9BDE87006B35AC /* GameScene.sks */; };
+		A4B417C01C9BDE87006B35AC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B417BF1C9BDE87006B35AC /* GameScene.swift */; };
+		A4B417C21C9BDE87006B35AC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B417C11C9BDE87006B35AC /* GameViewController.swift */; };
+		A4B417C51C9BDE87006B35AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B417C31C9BDE87006B35AC /* Main.storyboard */; };
+		A4B417C71C9BDE87006B35AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B417C61C9BDE87006B35AC /* Assets.xcassets */; };
+		A4B417CA1C9BDE87006B35AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B417C81C9BDE87006B35AC /* LaunchScreen.storyboard */; };
+		A4B417D51C9BDE87006B35AC /* GreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B417D41C9BDE87006B35AC /* GreenTests.swift */; };
+		A4B417E01C9BDE87006B35AC /* GreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B417DF1C9BDE87006B35AC /* GreenUITests.swift */; };
+		A4B418031C9C0AFF006B35AC /* idle_left.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A4B417FD1C9C0AFF006B35AC /* idle_left.atlas */; };
+		A4B418041C9C0AFF006B35AC /* idle_right.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A4B417FE1C9C0AFF006B35AC /* idle_right.atlas */; };
+		A4B418051C9C0AFF006B35AC /* walk_left.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A4B417FF1C9C0AFF006B35AC /* walk_left.atlas */; };
+		A4B418061C9C0AFF006B35AC /* walk_right.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A4B418001C9C0AFF006B35AC /* walk_right.atlas */; };
+		A4B418071C9C0AFF006B35AC /* wink_left.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A4B418011C9C0AFF006B35AC /* wink_left.atlas */; };
+		A4B418081C9C0AFF006B35AC /* wink_right.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A4B418021C9C0AFF006B35AC /* wink_right.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4B417D11C9BDE87006B35AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4B417B01C9BDE87006B35AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4B417B71C9BDE87006B35AC;
+			remoteInfo = Green;
+		};
+		A4B417DC1C9BDE87006B35AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4B417B01C9BDE87006B35AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4B417B71C9BDE87006B35AC;
+			remoteInfo = Green;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4B417B81C9BDE87006B35AC /* Green.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Green.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B417BB1C9BDE87006B35AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4B417BD1C9BDE87006B35AC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A4B417BF1C9BDE87006B35AC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A4B417C11C9BDE87006B35AC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A4B417C41C9BDE87006B35AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4B417C61C9BDE87006B35AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4B417C91C9BDE87006B35AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4B417CB1C9BDE87006B35AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B417D01C9BDE87006B35AC /* GreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B417D41C9BDE87006B35AC /* GreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenTests.swift; sourceTree = "<group>"; };
+		A4B417D61C9BDE87006B35AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B417DB1C9BDE87006B35AC /* GreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B417DF1C9BDE87006B35AC /* GreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenUITests.swift; sourceTree = "<group>"; };
+		A4B417E11C9BDE87006B35AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B417FD1C9C0AFF006B35AC /* idle_left.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = idle_left.atlas; sourceTree = "<group>"; };
+		A4B417FE1C9C0AFF006B35AC /* idle_right.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = idle_right.atlas; sourceTree = "<group>"; };
+		A4B417FF1C9C0AFF006B35AC /* walk_left.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = walk_left.atlas; sourceTree = "<group>"; };
+		A4B418001C9C0AFF006B35AC /* walk_right.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = walk_right.atlas; sourceTree = "<group>"; };
+		A4B418011C9C0AFF006B35AC /* wink_left.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wink_left.atlas; sourceTree = "<group>"; };
+		A4B418021C9C0AFF006B35AC /* wink_right.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wink_right.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4B417B51C9BDE87006B35AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B417CD1C9BDE87006B35AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B417D81C9BDE87006B35AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4B417AF1C9BDE87006B35AC = {
+			isa = PBXGroup;
+			children = (
+				A4B417BA1C9BDE87006B35AC /* Green */,
+				A4B417D31C9BDE87006B35AC /* GreenTests */,
+				A4B417DE1C9BDE87006B35AC /* GreenUITests */,
+				A4B417B91C9BDE87006B35AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4B417B91C9BDE87006B35AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4B417B81C9BDE87006B35AC /* Green.app */,
+				A4B417D01C9BDE87006B35AC /* GreenTests.xctest */,
+				A4B417DB1C9BDE87006B35AC /* GreenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4B417BA1C9BDE87006B35AC /* Green */ = {
+			isa = PBXGroup;
+			children = (
+				A4B417BB1C9BDE87006B35AC /* AppDelegate.swift */,
+				A4B417BD1C9BDE87006B35AC /* GameScene.sks */,
+				A4B417BF1C9BDE87006B35AC /* GameScene.swift */,
+				A4B417C11C9BDE87006B35AC /* GameViewController.swift */,
+				A4B417C31C9BDE87006B35AC /* Main.storyboard */,
+				A4B417FD1C9C0AFF006B35AC /* idle_left.atlas */,
+				A4B417FE1C9C0AFF006B35AC /* idle_right.atlas */,
+				A4B417FF1C9C0AFF006B35AC /* walk_left.atlas */,
+				A4B418001C9C0AFF006B35AC /* walk_right.atlas */,
+				A4B418011C9C0AFF006B35AC /* wink_left.atlas */,
+				A4B418021C9C0AFF006B35AC /* wink_right.atlas */,
+				A4B417C61C9BDE87006B35AC /* Assets.xcassets */,
+				A4B417C81C9BDE87006B35AC /* LaunchScreen.storyboard */,
+				A4B417CB1C9BDE87006B35AC /* Info.plist */,
+			);
+			path = Green;
+			sourceTree = "<group>";
+		};
+		A4B417D31C9BDE87006B35AC /* GreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4B417D41C9BDE87006B35AC /* GreenTests.swift */,
+				A4B417D61C9BDE87006B35AC /* Info.plist */,
+			);
+			path = GreenTests;
+			sourceTree = "<group>";
+		};
+		A4B417DE1C9BDE87006B35AC /* GreenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4B417DF1C9BDE87006B35AC /* GreenUITests.swift */,
+				A4B417E11C9BDE87006B35AC /* Info.plist */,
+			);
+			path = GreenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4B417B71C9BDE87006B35AC /* Green */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B417E41C9BDE87006B35AC /* Build configuration list for PBXNativeTarget "Green" */;
+			buildPhases = (
+				A4B417B41C9BDE87006B35AC /* Sources */,
+				A4B417B51C9BDE87006B35AC /* Frameworks */,
+				A4B417B61C9BDE87006B35AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Green;
+			productName = Green;
+			productReference = A4B417B81C9BDE87006B35AC /* Green.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4B417CF1C9BDE87006B35AC /* GreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B417E71C9BDE87006B35AC /* Build configuration list for PBXNativeTarget "GreenTests" */;
+			buildPhases = (
+				A4B417CC1C9BDE87006B35AC /* Sources */,
+				A4B417CD1C9BDE87006B35AC /* Frameworks */,
+				A4B417CE1C9BDE87006B35AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4B417D21C9BDE87006B35AC /* PBXTargetDependency */,
+			);
+			name = GreenTests;
+			productName = GreenTests;
+			productReference = A4B417D01C9BDE87006B35AC /* GreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4B417DA1C9BDE87006B35AC /* GreenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B417EA1C9BDE87006B35AC /* Build configuration list for PBXNativeTarget "GreenUITests" */;
+			buildPhases = (
+				A4B417D71C9BDE87006B35AC /* Sources */,
+				A4B417D81C9BDE87006B35AC /* Frameworks */,
+				A4B417D91C9BDE87006B35AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4B417DD1C9BDE87006B35AC /* PBXTargetDependency */,
+			);
+			name = GreenUITests;
+			productName = GreenUITests;
+			productReference = A4B417DB1C9BDE87006B35AC /* GreenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4B417B01C9BDE87006B35AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = BlueHammer;
+				TargetAttributes = {
+					A4B417B71C9BDE87006B35AC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A4B417CF1C9BDE87006B35AC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A4B417B71C9BDE87006B35AC;
+					};
+					A4B417DA1C9BDE87006B35AC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A4B417B71C9BDE87006B35AC;
+					};
+				};
+			};
+			buildConfigurationList = A4B417B31C9BDE87006B35AC /* Build configuration list for PBXProject "Green" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4B417AF1C9BDE87006B35AC;
+			productRefGroup = A4B417B91C9BDE87006B35AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4B417B71C9BDE87006B35AC /* Green */,
+				A4B417CF1C9BDE87006B35AC /* GreenTests */,
+				A4B417DA1C9BDE87006B35AC /* GreenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4B417B61C9BDE87006B35AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B418051C9C0AFF006B35AC /* walk_left.atlas in Resources */,
+				A4B418081C9C0AFF006B35AC /* wink_right.atlas in Resources */,
+				A4B417BE1C9BDE87006B35AC /* GameScene.sks in Resources */,
+				A4B417CA1C9BDE87006B35AC /* LaunchScreen.storyboard in Resources */,
+				A4B417C71C9BDE87006B35AC /* Assets.xcassets in Resources */,
+				A4B418031C9C0AFF006B35AC /* idle_left.atlas in Resources */,
+				A4B418041C9C0AFF006B35AC /* idle_right.atlas in Resources */,
+				A4B418071C9C0AFF006B35AC /* wink_left.atlas in Resources */,
+				A4B417C51C9BDE87006B35AC /* Main.storyboard in Resources */,
+				A4B418061C9C0AFF006B35AC /* walk_right.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B417CE1C9BDE87006B35AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B417D91C9BDE87006B35AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4B417B41C9BDE87006B35AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B417C01C9BDE87006B35AC /* GameScene.swift in Sources */,
+				A4B417C21C9BDE87006B35AC /* GameViewController.swift in Sources */,
+				A4B417BC1C9BDE87006B35AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B417CC1C9BDE87006B35AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B417D51C9BDE87006B35AC /* GreenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B417D71C9BDE87006B35AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B417E01C9BDE87006B35AC /* GreenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4B417D21C9BDE87006B35AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4B417B71C9BDE87006B35AC /* Green */;
+			targetProxy = A4B417D11C9BDE87006B35AC /* PBXContainerItemProxy */;
+		};
+		A4B417DD1C9BDE87006B35AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4B417B71C9BDE87006B35AC /* Green */;
+			targetProxy = A4B417DC1C9BDE87006B35AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4B417C31C9BDE87006B35AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4B417C41C9BDE87006B35AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4B417C81C9BDE87006B35AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4B417C91C9BDE87006B35AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4B417E21C9BDE87006B35AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4B417E31C9BDE87006B35AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4B417E51C9BDE87006B35AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Green/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluehammer.Green;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4B417E61C9BDE87006B35AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Green/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluehammer.Green;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4B417E81C9BDE87006B35AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = GreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluehammer.GreenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Green.app/Green";
+			};
+			name = Debug;
+		};
+		A4B417E91C9BDE87006B35AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluehammer.GreenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Green.app/Green";
+			};
+			name = Release;
+		};
+		A4B417EB1C9BDE87006B35AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = GreenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluehammer.GreenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Green;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A4B417EC1C9BDE87006B35AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GreenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluehammer.GreenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Green;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4B417B31C9BDE87006B35AC /* Build configuration list for PBXProject "Green" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B417E21C9BDE87006B35AC /* Debug */,
+				A4B417E31C9BDE87006B35AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B417E41C9BDE87006B35AC /* Build configuration list for PBXNativeTarget "Green" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B417E51C9BDE87006B35AC /* Debug */,
+				A4B417E61C9BDE87006B35AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4B417E71C9BDE87006B35AC /* Build configuration list for PBXNativeTarget "GreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B417E81C9BDE87006B35AC /* Debug */,
+				A4B417E91C9BDE87006B35AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4B417EA1C9BDE87006B35AC /* Build configuration list for PBXNativeTarget "GreenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B417EB1C9BDE87006B35AC /* Debug */,
+				A4B417EC1C9BDE87006B35AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4B417B01C9BDE87006B35AC /* Project object */;
+}
